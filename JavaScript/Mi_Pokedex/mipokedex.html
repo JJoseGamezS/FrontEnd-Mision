@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiPokedex</title>
+    <link rel="stylesheet" href="./poledex.css">
+    
+</head>
+<body>
+    <h1>Mi Pokedex Inovaccion LaunchX</h1>
+    <input type="text" placeholder="Ingresa nombre" id="pokeName" name="pokeName">    
+    <button onclick="fetchPokemon()">Buscar</button>
+    
+    <img src="./pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
+    <p id="name">Nombre: </p>
+    <p id="type">Tipo: </p>
+    
+    <div id="stats">Estadisticas
+        <p id="hp">hp: </p>
+        <p id="attack">attack: </p>
+        <p id="defense">defense: </p>
+        <p id="special-attack">special-attack: </p>
+        <p id="special-defense">special-defense: </p>
+        <p id="speed">speed: </p>
+    </div>
+    
+    <div id="moves">
+        <p id="move">Movimientos: </p>
+    </div>
+</body>
+<footer>
+    <script src="./mipokedex.js"></script>
+</footer>
+</html>
